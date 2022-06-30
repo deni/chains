@@ -10,11 +10,11 @@ def chain_create():
 	key_public = "rPN7a3A7tLTfcCUTg0gTgQ=="
 
 	# Have the user pick an identifier for the device
-	device_name = input("Enter device name: ")
+	device_name = input("Enter a name for this device: ")
 
 	# Create an object for devices and sign it
 	devices = {
-		device_name: key_public
+		key_public: device_name
 	}
 
 	# Sign the devices object
@@ -28,7 +28,7 @@ def chain_create():
 		"signature": signature # "NZJr7Gs7YWPL3uZw/5GgEw=="
 	}
 
-  # Put it in a list, creating the first link of the chain
+	# Put it in a list, creating the first link of the chain
 	chain = [object]
 
 	return(chain)
@@ -45,8 +45,16 @@ def chain_load(file_path):
 	else:
 		return(None)
 
-def print_json(object):
-	print(json.dumps(object, indent='\t'))
+def json_serialize(object):
+	return(json.dumps(object, indent='\t'))
+
+def add_device(chain):
+	device_public_key = input("Enter the public key of the device that you wish to add: ")
+	device_name = input("What do you wish to call this device? ")
+
+	chain[-1]["devices"][device_public_key] = device_name
+
+	return(chain)
 
 
 chain = None
@@ -57,27 +65,36 @@ print("Welcome to chains.")
 while True:
 	if chain:
 		print("Your current chain:")
-		print_json(chain)
+		print(json_serialize(chain))
 	else:
 		print("No chain is currently loaded.")
 
 	print(
 	'''
 	You have the following options:
-	[2] Start a new chain
-	[1] Load an existing chain
+	[1] Start a new chain
+	[2] Load an existing chain from file
 	[3] Save current chain to file
+	[4] Add device
+	[5] Remove device
 	'''
 	)
 
 	choice = input("How do you wish to proceed? ")
 
+	# If no chain
 	if choice == "1":
-		chain = chain_load('signatures/1.json')
-	elif choice == "2":
 		chain = chain_create()
 
 		print("A new chain has been created and loaded.")
+	elif choice == "2":
+		chain = chain_load('signatures/1.json')
+	elif choice == "3":
+		pass
+	elif choice == "4":
+		chain = add_device(chain)
+	elif choice == "5":
+		pass
 	else:
 		print("Please make a choice.")
 		choose()
