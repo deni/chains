@@ -18,4 +18,4 @@ def json_serialize_canonical(object):
         allow_nan = False,
     )
 
-	return serialized
+    return serialized
