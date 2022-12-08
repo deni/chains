@@ -1,6 +1,6 @@
 # Chains 🔗
 
-Chains makes it possible to create cryptographic signatures from any device, and can then be used to verify that the signature is valid on behalf of an individual. In practice, it means that you can sign data cryptographically from your phone, computer, or another device, after which it can be verified that a specific person made the signature no matter which device was used. The secret **key material** is **generated on the individual devices** and **never leaves them**. This also makes it possible to store for a device in its secure hardware (Trusted Platform Module, Secure Enclave, or the likes). This is done decentrally, and only requires the user to trust their own personal devices.
+Chains makes it possible to create cryptographic signatures from any device, and can then be used to verify that the signature is valid on behalf of an individual. In practice, it means that you can sign data cryptographically from your phone, computer, or another device, after which it can be verified that a specific person made the signature no matter which device was used. The secret **key material** is **generated on the individual device** and **never leaves it**. This also makes it possible to store for a device in its secure hardware (Trusted Platform Module, Secure Enclave, or the likes). This is done decentrally, and only requires the user to trust their own personal devices.
 
 ### Use-cases
 
@@ -18,7 +18,7 @@ It does this by creating objects containing a list of which devices (and their c
 [
 	{
 		"devices": {
-			"12DEC, MacBook Pro, Kikori Sword": "rPN7a3A7tLTfcCUTg0gTgQ=="
+			"rPN7a3A7tLTfcCUTg0gTgQ==": "12DEC, MacBook Pro, Kikori Sword"
 		},
 		"supersedes": null,
 		"signee": "rPN7a3A7tLTfcCUTg0gTgQ==",
@@ -26,8 +26,8 @@ It does this by creating objects containing a list of which devices (and their c
 	},
 	{
 		"devices": {
-			"12DEC, MacBook Pro, Kikori Sword": "rPN7a3A7tLTfcCUTg0gTgQ==",
-			"13FEB, iPhone 4S": "QZX5chtFtNNtpxdg043JYQ=="
+			"rPN7a3A7tLTfcCUTg0gTgQ==": "12DEC, MacBook Pro, Kikori Sword",
+			"QZX5chtFtNNtpxdg043JYQ==": "13FEB, iPhone 4S"
 		},
 		"supersedes": "81afb37606f93ecaeb33",
 		"signee": "rPN7a3A7tLTfcCUTg0gTgQ==",
@@ -35,8 +35,8 @@ It does this by creating objects containing a list of which devices (and their c
 	},
 	{
 		"devices": {
-			"13FEB, iPhone 4S": "QZX5chtFtNNtpxdg043JYQ==",
-			"13APR, MacBook Pro, Sword of Time": "IZe9WeN9XhR2M+ZryeYMIQ=="
+			"QZX5chtFtNNtpxdg043JYQ==": "13FEB, iPhone 4S",
+			"IZe9WeN9XhR2M+ZryeYMIQ==": "13APR, MacBook Pro, Sword of Time"
 		},
 		"supersedes": "67e9a38756b70adb3fc1",
 		"signee": "QZX5chtFtNNtpxdg043JYQ==",
@@ -44,8 +44,8 @@ It does this by creating objects containing a list of which devices (and their c
 	},
 	{
 		"devices": {
-			"13APR, MacBook Pro, Sword of Time": "IZe9WeN9XhR2M+ZryeYMIQ==",
-			"14AUG, OnePlus One": "YGHnFQenifuq0ZK2yLn68A=="
+			"IZe9WeN9XhR2M+ZryeYMIQ==": "13APR, MacBook Pro, Sword of Time",
+			"YGHnFQenifuq0ZK2yLn68A==": "14AUG, OnePlus One"
 		},
 		"supersedes": "fee7fc20da5df64b943b",
 		"signee": "IZe9WeN9XhR2M+ZryeYMIQ==",
