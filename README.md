@@ -18,7 +18,7 @@ It does this by creating objects containing a list of which devices (and their c
 [
 	{
 		"devices": {
-			"12DEC, MacBook Pro, Kikori Sword": "rPN7a3A7tLTfcCUTg0gTgQ=="
+			"rPN7a3A7tLTfcCUTg0gTgQ==": "12DEC, MacBook Pro, Kikori Sword"
 		},
 		"supersedes": null,
 		"signee": "rPN7a3A7tLTfcCUTg0gTgQ==",
@@ -26,8 +26,8 @@ It does this by creating objects containing a list of which devices (and their c
 	},
 	{
 		"devices": {
-			"12DEC, MacBook Pro, Kikori Sword": "rPN7a3A7tLTfcCUTg0gTgQ==",
-			"13FEB, iPhone 4S": "QZX5chtFtNNtpxdg043JYQ=="
+			"rPN7a3A7tLTfcCUTg0gTgQ==": "12DEC, MacBook Pro, Kikori Sword",
+			"QZX5chtFtNNtpxdg043JYQ==": "13FEB, iPhone 4S"
 		},
 		"supersedes": "81afb37606f93ecaeb33",
 		"signee": "rPN7a3A7tLTfcCUTg0gTgQ==",
@@ -35,8 +35,8 @@ It does this by creating objects containing a list of which devices (and their c
 	},
 	{
 		"devices": {
-			"13FEB, iPhone 4S": "QZX5chtFtNNtpxdg043JYQ==",
-			"13APR, MacBook Pro, Sword of Time": "IZe9WeN9XhR2M+ZryeYMIQ=="
+			"QZX5chtFtNNtpxdg043JYQ==": "13FEB, iPhone 4S",
+			"IZe9WeN9XhR2M+ZryeYMIQ==": "13APR, MacBook Pro, Sword of Time"
 		},
 		"supersedes": "67e9a38756b70adb3fc1",
 		"signee": "QZX5chtFtNNtpxdg043JYQ==",
@@ -44,8 +44,8 @@ It does this by creating objects containing a list of which devices (and their c
 	},
 	{
 		"devices": {
-			"13APR, MacBook Pro, Sword of Time": "IZe9WeN9XhR2M+ZryeYMIQ==",
-			"14AUG, OnePlus One": "YGHnFQenifuq0ZK2yLn68A=="
+			"IZe9WeN9XhR2M+ZryeYMIQ==": "13APR, MacBook Pro, Sword of Time",
+			"YGHnFQenifuq0ZK2yLn68A==": "14AUG, OnePlus One"
 		},
 		"supersedes": "fee7fc20da5df64b943b",
 		"signee": "IZe9WeN9XhR2M+ZryeYMIQ==",
