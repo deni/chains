@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Chains makes it possible to create cryptographic signatures from any device, and can then be used to verify that the signature is valid on behalf of an individual. In practice, it means that you can sign data cryptographically from your phone, computer, or another device, after which it can be verified that a specific person made the signature no matter which device was used. The secret *key material* is *generated on the individual devices* and *never leaves them*. This also makes it possible to store for a device in its secure hardware (Trusted Platform Module, Secure Enclave, or the likes). This is done decentrally, and only requires the user to trust their own personal devices.
+Chains makes it possible to create cryptographic signatures from any device, and can then be used to verify that the signature is valid on behalf of an individual. In practice, it means that you can sign data cryptographically from your phone, computer, or another device, after which it can be verified that a specific person made the signature no matter which device was used. The secret **key material** is **generated on the individual devices** and **never leaves them**. This also makes it possible to store for a device in its secure hardware (Trusted Platform Module, Secure Enclave, or the likes). This is done decentrally, and only requires the user to trust their own personal devices.
 
 ### Use-cases
 
