@@ -14,7 +14,45 @@ Being able to create signatures like this, enables various important and useful 
 
 It does this by creating objects containing a list of which devices (and their corresponding public key) are allowed to perform operation on the individual's behalf:
 
-AN EXAMPLE OBJECT HERE
+```json
+[
+	{
+		"devices": {
+			"12DEC, MacBook Pro, Kikori Sword": "rPN7a3A7tLTfcCUTg0gTgQ=="
+		},
+		"supersedes": null,
+		"signee": "rPN7a3A7tLTfcCUTg0gTgQ==",
+		"signature": "NZJr7Gs7YWPL3uZw/5GgEw=="
+	},
+	{
+		"devices": {
+			"12DEC, MacBook Pro, Kikori Sword": "rPN7a3A7tLTfcCUTg0gTgQ==",
+			"13FEB, iPhone 4S": "QZX5chtFtNNtpxdg043JYQ=="
+		},
+		"supersedes": "81afb37606f93ecaeb33",
+		"signee": "rPN7a3A7tLTfcCUTg0gTgQ==",
+		"signature": "0Vo4nCUgqtwITSaFwgbikA=="
+	},
+	{
+		"devices": {
+			"13FEB, iPhone 4S": "QZX5chtFtNNtpxdg043JYQ==",
+			"13APR, MacBook Pro, Sword of Time": "IZe9WeN9XhR2M+ZryeYMIQ=="
+		},
+		"supersedes": "67e9a38756b70adb3fc1",
+		"signee": "QZX5chtFtNNtpxdg043JYQ==",
+		"signature": "kaT2uQeDt4rKM0DwsracfA=="
+	},
+	{
+		"devices": {
+			"13APR, MacBook Pro, Sword of Time": "IZe9WeN9XhR2M+ZryeYMIQ==",
+			"14AUG, OnePlus One": "YGHnFQenifuq0ZK2yLn68A=="
+		},
+		"supersedes": "fee7fc20da5df64b943b",
+		"signee": "IZe9WeN9XhR2M+ZryeYMIQ==",
+		"signature": "gqt0M0mOmyOY3RiKIqMNSQ=="
+	}
+]
+```
 
 These objects are called chain links and come together to form a chain that describes the current state and history of which devices (and thereby public keys) are and have been allowed to act on behalf of the individual. When a key is used, the chain is followed back to the start, verifying that each addition was valid when it was created, and that the devices described in the last chain link belong to the same individual as the ones described in the first.
 
