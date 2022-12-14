@@ -54,6 +54,8 @@ It does this by creating objects containing a list of which devices (and their c
 ]
 ```
 
+(Example chain. Not crytographically valid.)
+
 These objects are called chain links and come together to form a chain that describes the current state and history of which devices (and thereby public keys) are and have been allowed to act on behalf of the individual. When a key is used, the chain is followed back to the start, verifying that each addition was valid when it was created, and that the devices described in the last chain link belong to the same individual as the ones described in the first.
 
 ## So it's a blockchain?
