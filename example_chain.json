@@ -1,0 +1,38 @@
+[
+	{
+		"devices": {
+			"jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=": "MacBook Air M1"
+		},
+		"supersedes": null,
+		"signee": "jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=",
+		"signature": "sa4qsGdYyBFjtYG4dwR2GN00rwL8E2JLUTRQCa3omDtAe400VzoiXZRI8kD7snWe/6c+FMZbefxeHAqVkpjtFxPY9Eh5YV/l7xzrT9UGFNENFBJIlcE358O4XMQFaD89QV1VrefA0/1NjFYvgmnBxBeRgUGw52zYWGrfCJrjVYKyEqg+yoeOwownRUvjMdLYJqKXWDvS89V6o7phu5/kFYxXUhVGUR162f3yl0Ow5+5GizR+n+glDG/A3ExAWEWDFMrUEnigMmqpJQoGtZz0apaC+S9C98EHOko+x0rxSDWM1eqTPV+R+Bs3L/g/GC17+EPuQfK8VwCXe413yxeNhA=="
+	},
+	{
+		"devices": {
+			"jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=": "MacBook Air M1",
+			"mPTHWVzNlcYZRphbYsIayK+MTp0NYi5/fNe0IDWkwSg=": "iPhone 12 mini"
+		},
+		"supersedes": "0hYmKCS5edG93LBnAHUfTyGMySB8LnrvFG2NdTDbMr8=",
+		"signee": "jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=",
+		"signature": "Ad5Ny2UqzvYXODoS1Szyu53syCMOWX7Rpg2a9YjGG/O/WBFOg2FcRTWYoqZUKnX4WBAWFj07lLxhoiT5qWKn3jq91JnjZ4LTcpnm5YH64DIit7JsP2fVqTq1LUr9SKyurgAbx2TeA8mnbFdCPMrhyiXm60fWTXvsoLw2Kz09R780HpBlLB2xuK0Jjdu140SCbt7USIvm5rZetmk+PXk/mX9p4CCMu/EMC11Rld/UM8w5oFTtms7jr92wgYrwceSgkeAkjfsRYZwAI8sB+CQh8brrxA1gm+KU4XcK25/TpUI0/dlbiB/2xhAmme2rtOW9ahMiv6M6GyR/DJf52fbApw=="
+	},
+	{
+		"devices": {
+			"jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=": "MacBook Air M1",
+			"mPTHWVzNlcYZRphbYsIayK+MTp0NYi5/fNe0IDWkwSg=": "iPhone 12 mini",
+			"QMkuh/2WB40Afi29DwfybbpakMiRPMQEcrfTZXqbCxg=": "Other test device"
+		},
+		"supersedes": "na7BodEXRDIc9mgWthKQ3++mePI6KisUvE5gkuazQYk=",
+		"signee": "jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=",
+		"signature": "mUAXwilXXHPAKRUlQH/ApSrdn7XD8EVC1zP1NcGt7RnhasZHPYs2JdpJ5TfdnQMSx2z7lTaGy/szttXDuduHsgiR/1ZMJrpHr+uhV5l7cs77EYcOw/YLFfVImeLxtayQ+GU3t/2mhARKekzdi6Ngne6rOcJpA1KcjD6GBDhusCOSc5AHYMZ66klfyJMBvKsvAQx9IDtlukg6OnFQ7XbcTHBMQLhlHyel2Lxqsc+G/h1lXZyNU8kOBDb/vp4269rauN/hm+bw2nGv7jyrlD9sksPTySZ2ecfDnE/tV7WcceOpskt+3F7SoP1bGySVVv3631cpPMk4N8Q061DwsB7hBQ=="
+	},
+	{
+		"devices": {
+			"jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=": "MacBook Air M1",
+			"QMkuh/2WB40Afi29DwfybbpakMiRPMQEcrfTZXqbCxg=": "Other test device"
+		},
+		"supersedes": "D2zoSqVkf9VASqWrQeTJZxPrtbZ9fPGGdwH5b46CJ/s=",
+		"signee": "jl+68OBr7WquTaKr+Tu+RvUCVnb0R23jHtqmvaYcifw=",
+		"signature": "mUAXwilXXHPAKRUlQH/ApSrdn7XD8EVC1zP1NcGt7RnhasZHPYs2JdpJ5TfdnQMSx2z7lTaGy/szttXDuduHsgiR/1ZMJrpHr+uhV5l7cs77EYcOw/YLFfVImeLxtayQ+GU3t/2mhARKekzdi6Ngne6rOcJpA1KcjD6GBDhusCOSc5AHYMZ66klfyJMBvKsvAQx9IDtlukg6OnFQ7XbcTHBMQLhlHyel2Lxqsc+G/h1lXZyNU8kOBDb/vp4269rauN/hm+bw2nGv7jyrlD9sksPTySZ2ecfDnE/tV7WcceOpskt+3F7SoP1bGySVVv3631cpPMk4N8Q061DwsB7hBQ=="
+	}
+]
