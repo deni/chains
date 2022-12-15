@@ -14,11 +14,11 @@ The first step is to create a simple client/server implementation. This will:
 * Verify that the public key provided by the client is in the last chain link
 * Verify the challenge signature, and that it was made by the previously verified key
 
-## Specific plan
+## Research days
 
-* Thursday, 8th of December: Getting updated on my old work, create chain_tools module
-* Friday, 9th of December: Work on and finish simple server implementation, including
-* Monday, 12th of December: Specifics still unplanned
+* 8th of December
+* 9th of December
+* 12th of December
 * 13th of December
 * 14th of December
 * 15th of December
