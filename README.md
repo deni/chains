@@ -23,8 +23,8 @@ It does this by creating objects containing a list of which devices (and their c
 			},
 			"supersedes": null
 		},
-		"signature": "NZJr7Gs7YWPL3uZw/5GgEw==",
-		"signee": "rPN7a3A7tLTfcCUTg0gTgQ=="
+		"signature": null,
+		"signee": null
 	},
 	{
 		"signed": {
