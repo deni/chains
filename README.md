@@ -70,6 +70,6 @@ These objects are called chain links and come together to form a chain that desc
 
 No. Although similar in some areas, Chains is **not** a blockchain. Although it works with both *blocks* and *chains* it does not have central consensus. There is no mining, so **not** a traditional blockchain.
 
-However, it is somewhere in that neighborhood, and many of the technologies used to make this project possible were in fact developed in relation to Bitcoin. One of these was HD Wallets as introduced in [Bitcoin Improvement Proposal 32](https://en.bitcoin.it/wiki/BIP_0032).
+However, it is somewhere in that neighborhood, and many of the technologies used to make this project possible were in fact developed in relation to Bitcoin. One of these was Hierarchical Deterministic (HD) Wallets as introduced in [Bitcoin Improvement Proposal 32](https://en.bitcoin.it/wiki/BIP_0032).
 
 If the goal of this project was to attrach VC money, an argument could be made for this being close enough to a blockchain. However, as the aim is not to make money, I get the benefit of avoiding the stigma by making it clear that this is not your next Hipster NFT Blockchain Crypto wannabe Pyramid Scheme.
